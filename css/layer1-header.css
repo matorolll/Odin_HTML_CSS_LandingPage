@@ -1,6 +1,7 @@
 header{
-    background-color: #1F2937;
+    background-color: #557A46;
     padding: 20px 20% 7%;
+    position: relative;
 }
 
 .header-top-container{
@@ -9,20 +10,21 @@ header{
     align-items: center;
     height:100%;
     padding-bottom:10%;
-    
+    flex:wrap;
+
 }
 
 .header-logo{
     color:#F9FAF9;
     font-size: 24px;
+    font-weight:900;
     flex:1;
     flex-grow: 1;
     flex-basis: 120px; 
-    background: -webkit-linear-gradient(45deg, #2820be, #00ff95 40%);
+    background: -webkit-linear-gradient(45deg, #71c516, rgb(143, 194, 84) 40%);
     background-clip:border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: 0;
 }
 
 .header-links{
@@ -38,7 +40,7 @@ header{
 }
 
 .header-links > a{
-    color:#aeafaf;
+    color: rgb(143, 194, 84);
     font-size: 18px; 
     padding-left:1rem;
 }
@@ -49,11 +51,13 @@ header{
     justify-content: space-between;
     height:100%;
     color:#F9FAF9;
-    gap:5%;  
+    gap:5%; 
+    flex:wrap; 
+
 }
 
 .header-text > button{
-    background-color:rgb(56, 56, 211);
+    background-color:rgb(143, 194, 84);
     border-radius:10px;
     border:0;
     color:white;
@@ -73,30 +77,56 @@ header{
     color:#F9FAF8;
 }
 
+.header-text-motto > span{
+    font-weight: 700;
+    color:rgb(143, 194, 84);
+}
+
 .header-text-motto2{
     padding:2% 0 4% 0;
     font-size:18px;
 
-    color:#a2a2a2;
+    color:#9da79f;
+}
+.header-img-motto2{
+    display: flex;
+    align-items: top;
+    margin-right: 0.5em;
+    flex-grow: 2;
+    flex-basis: 500px;
 }
 
-.header-bot-container > img{
-    flex:1;    
-    display:flex;  
-    max-width:50%;
-    background-color:#a2a2a2;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    flex-basis: 400px;
+
+.header-img-motto2 > img{ 
+    width: 100%;
+    filter: opacity(60%);
 }
 
-@media (max-width: 1000px) {
-    .header-bot-container > img {
+@media (max-width: 1500px) {
+    .header-img-motto2 > img {
         max-width: 100%;
+        width: 100%;
+
     }
     .header-text > button{
         margin-left:auto;
         margin-right:auto;
     }
+}
+
+
+.header-bottomleft-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform-origin: left bottom;
+    transform: scale(0.2);
+  }
+.header-bottomright-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform-origin: right bottom;
+    transform: scale(0.2);
+
 }
