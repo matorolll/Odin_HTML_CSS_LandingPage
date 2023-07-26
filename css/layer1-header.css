@@ -1,0 +1,102 @@
+header{
+    background-color: #1F2937;
+    padding: 20px 20% 7%;
+}
+
+.header-top-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100%;
+    padding-bottom:10%;
+    
+}
+
+.header-logo{
+    color:#F9FAF9;
+    font-size: 24px;
+    flex:1;
+    flex-grow: 1;
+    flex-basis: 120px; 
+    background: -webkit-linear-gradient(45deg, #2820be, #00ff95 40%);
+    background-clip:border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.header-links{
+    justify-content: space-between;
+    align-items: center;
+    flex:1;
+    display: flex;
+}
+
+.header-links > a > img{
+    width: 2em;
+    height: 2em;
+}
+
+.header-links > a{
+    color:#aeafaf;
+    font-size: 18px; 
+    padding-left:1rem;
+}
+
+.header-bot-container{
+    display: flex;
+    flex-wrap: wrap;        
+    justify-content: space-between;
+    height:100%;
+    color:#F9FAF9;
+    gap:5%;  
+}
+
+.header-text > button{
+    background-color:rgb(56, 56, 211);
+    border-radius:10px;
+    border:0;
+    color:white;
+    padding: 10px 50px;
+    margin-bottom:20px;
+    display:flex;
+}
+
+.header-text{
+    flex-grow: 3;
+    flex-basis: 300px;
+}
+
+.header-text-motto{
+    font-size:48px;
+    font-weight: bold;
+    color:#F9FAF8;
+}
+
+.header-text-motto2{
+    padding:2% 0 4% 0;
+    font-size:18px;
+
+    color:#a2a2a2;
+}
+
+.header-bot-container > img{
+    flex:1;    
+    display:flex;  
+    max-width:50%;
+    background-color:#a2a2a2;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+
+@media (max-width: 1000px) {
+    .header-bot-container > img {
+        max-width: 100%;
+    }
+    .header-text > button{
+        margin-left:auto;
+        margin-right:auto;
+    }
+}

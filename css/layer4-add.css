@@ -1,0 +1,26 @@
+.add-container{
+    padding: 5% 20%;
+    background-color:white;
+}
+
+.add-container-option{
+    background-color:rgb(56, 56, 211);
+    padding:5% 10%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    font-size:24px;
+}
+.add-container-option > button{
+    background-color: rgb(56, 56, 211);
+    border-radius: 25px;
+    border: 2px white solid;
+    color:white;
+    padding: 10px 50px;
+}
+.add-subtext{
+    font-size:14px;
+    font-style:italic;
+    color:#b4b4b4;
+}

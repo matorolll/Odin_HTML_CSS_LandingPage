@@ -1,0 +1,40 @@
+.container{
+    padding: 20px 20% 5%;
+}
+
+.container-information{
+    display:flex;
+    font-size:38px;
+    color:black;
+    font-weight:bold;
+    flex:1;
+    justify-content: center;   
+    align-items: center;
+    padding:5%;
+}
+
+.container-gallery{
+    display:flex;
+    gap:5%;
+    justify-content: center;   
+    align-items: center;
+}
+
+.container-gallery-img{
+    align-items: center;
+    text-align:center;
+}
+
+.container-gallery-img > img{
+    border-radius:25px;
+    max-width:100%;
+    border-radius:15px;
+    border:2px rgb(56, 56, 211) solid;
+    text-align:center;
+}
+
+.container-gallery-text{
+    padding:5%;
+    align-items: center;
+    text-align:center;
+}
