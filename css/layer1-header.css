@@ -100,12 +100,17 @@ header{
 .header-img-motto2 > img{ 
     width: 100%;
     filter: opacity(60%);
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 50%;
 }
 
 @media (max-width: 1500px) {
     .header-img-motto2 > img {
         max-width: 100%;
         width: 100%;
+        border-top-left-radius: 0%;
+        border-bottom-left-radius: 35%;
+        border-bottom-right-radius: 35%;
 
     }
     .header-text > button{
