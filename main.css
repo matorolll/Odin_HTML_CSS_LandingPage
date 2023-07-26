@@ -23,20 +23,30 @@ header{
         font-size: 24px;
         flex:1;
         flex-grow: 1;
-        flex-basis: 120px;
+        flex-basis: 120px; 
+        background: -webkit-linear-gradient(45deg, #2820be, #00ff95 40%);
+        background-clip:border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 0;
     }
 
     .header-links{
         justify-content: space-between;
+        align-items: center;
         flex:1;
         display: flex;
     }
+        .header-links > a > img{
+            width: 2em;
+            height: 2em;
+        }
+
 
         .header-links > a{
             color:#aeafaf;
             font-size: 18px; 
-            gap:2rem;
-            padding-left:2rem;
+            padding-left:1rem;
         }
 
     .header-bot-container{
