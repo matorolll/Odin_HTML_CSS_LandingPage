@@ -1,23 +1,32 @@
 .add-container{
     padding: 5% 20%;
-    background-color:white;
+    background-image: url("../statics/layer4-background.jpg");
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(1.1);
 }
 
 .add-container-option{
-    background-color:rgb(56, 56, 211);
+    background-color:#557A46;
     padding:5% 10%;
     display:flex;
     justify-content: space-between;
     align-items: center;
     color:white;
     font-size:24px;
+
 }
 .add-container-option > button{
-    background-color: rgb(56, 56, 211);
+    background-color: #557A46;
     border-radius: 25px;
     border: 2px white solid;
     color:white;
     padding: 10px 50px;
+    margin-left:20px;
 }
 .add-subtext{
     font-size:14px;
